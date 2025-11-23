@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro-Industrie - Olivier Rishi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f7f4;
+            margin: 0;
+            padding: 20px;
+            color: #2d2d2d;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0a8a38;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .highlight {
+            background: #e6f6ea;
+            padding: 10px;
+            border-left: 4px solid #0a8a38;
+            border-radius: 6px;
+        }
+        ul li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Agro-Industrie – Projet Passion Business</h1>
+    <p>
+        Bonjour ! Je suis <strong>Olivier Rishi Matabaro</strong>, entrepreneur agro-industriel basé à Goma.
+        Je développe des solutions locales pour transformer les richesses agricoles en produits de qualité.
+    </p>
+
+    <div class="section">
+        <h2>🌿 Nos activités principales</h2>
+        <ul>
+            <li>Production de <strong>jus naturels</strong> (maracuja, orange, mélange).</li>
+            <li>Transformation d’arachides en <strong>beurre d'arachide</strong>.</li>
+            <li>Production artisanale de <strong>gâteaux & pâtisseries</strong>.</li>
+            <li>Début des activités autour du <strong>cacao</strong> et produits dérivés.</li>
+        </ul>
+    </div>
+
+    <div class="section highlight">
+        <h3>🎯 Notre objectif</h3>
+        <p>
+            Valoriser les produits agricoles locaux, offrir une qualité accessible
+            et créer une chaîne de transformation durable dans la région de Goma.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>📦 Pourquoi ce projet est important ?</h2>
+        <p>
+            Il soutient les agriculteurs locaux, combat le gaspillage, transforme les matières premières
+            et crée des opportunités d’emploi dans notre communauté.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>

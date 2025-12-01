@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivier Rishi Matabaro - Évangéliste</title>
+    <style>
+        /* Configuration de base */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* En-tête (Hero Section) */
+        header {
+            background: linear-gradient(135deg, #2b5876, #4e4376); /* Couleurs un peu plus profondes/solennelles */
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Section Principale */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        /* Cartes de Versets */
+        .verses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .verse-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid #4e4376;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .verse-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .scripture {
+            font-size: 1.1em;
+            color: #555;
+            font-family: 'Georgia', serif;
+            margin-bottom: 15px;
+            display: block;
+            font-style: italic;
+        }
+
+        .reference {
+            display: block;
+            text-align: right;
+            font-weight: bold;
+            color: #2b5876;
+            margin-top: 10px;
+        }
+
+        /* Pied de page */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2b5876;
+            color: white;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #fff;
+            color: #2b5876;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue, je suis Olivier Rishi Matabaro</h1>
+        <p>Serviteur de Dieu & Évangéliste</p>
+        <a href="mailto:olivierrishimata@gmail.com" class="btn">Me contacter par Email</a>
+    </header>
+
+    <div class="container">
+        
+        <div class="intro">
+            <h2>Partageons la Bonne Nouvelle</h2>
+            <p>Mon désir est de partager la vérité biblique et d'apporter la lumière de l'Évangile.</p>
+        </div>
+
+        <h3 style="text-align: center; color: #2b5876; margin-bottom: 30px;">Versets Bibliques Inspirants</h3>
+        
+        <div class="verses-grid">
+            <div class="verse-card">
+                <span class="scripture">"Toute arme forgée contre toi sera sans effet; Et toute langue qui s'élèvera en justice contre toi, Tu la condamneras. Tel est l'héritage des serviteurs de l'Éternel, Tel est le salut qui leur viendra de moi, Dit l'Éternel."</span>
+                <span class="reference">- Ésaïe 54:17</span>
+            </div>
+
+            <div class="verse-card">
+                <span class="scripture">"Là se trouvait le puits de Jacob. Jésus, fatigué du voyage, était assis au bord du puits. C'était environ la sixième heure."</span>
+                <span class="reference">- Jean 4:6</span>
+            </div>
+
+            <div class="verse-card">
+                <span class="scripture">"Celui qui absout le coupable et celui qui condamne le juste Sont tous deux en abomination à l'Éternel."</span>
+                <span class="reference">- Proverbes 17:15</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Que la grâce du Seigneur soit avec vous.</p>
+        <p>&copy; 2024 Ministère Olivier Rishi Matabaro</p>
+    </footer>
+
+</body>
+</html>

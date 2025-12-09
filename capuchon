@@ -1,0 +1,2 @@
+Fichier à Modifier (Exemple),Code à Ajouter/Modifier
+tests/utils.test.js,"javascript<br>// Fonction cible : filterList(items) qui retourne une liste filtrée<br><br>describe('filterList', () => {<br>  // Le test important que vous ajoutez :<br>  test('should return an empty array when input is null', () => {<br>    const result = filterList(null);<br>    // L'assertion qui prouve que votre code est robuste<br>    expect(result).toEqual([]);<br>  });<br><br>  // ... (Autres tests existants)<br>});<br>"

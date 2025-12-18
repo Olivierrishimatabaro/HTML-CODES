@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Catalyst – Cardano Incubator</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0033ad;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        .highlight {
+            background: #e8f0ff;
+            padding: 15px;
+            border-left: 5px solid #0033ad;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Project Catalyst</h1>
+        <h3>The Best Incubator for Young Builders on Cardano</h3>
+
+        <p>
+            Project Catalyst is the innovation engine of the Cardano ecosystem.
+            It empowers young developers, entrepreneurs, and community members
+            to transform ideas into real-world blockchain solutions.
+        </p>
+
+        <p>
+            Through open governance, community voting, and transparent funding,
+            Catalyst gives everyone a voice and the opportunity to build the future
+            of decentralized technology on Cardano.
+        </p>
+
+        <div class="highlight">
+            <p>
+                <strong>Why Project Catalyst matters:</strong><br>
+                ✔ Supports young innovators<br>
+                ✔ Funds impactful ideas<br>
+                ✔ Strengthens the Cardano ecosystem<br>
+                ✔ Encourages learning, collaboration, and growth
+            </p>
+        </div>
+
+        <p>
+            Project Catalyst is more than funding — it is a learning platform,
+            a community incubator, and a gateway for the next generation of
+            Cardano builders.
+        </p>
+    </div>
+
+</body>
+</html>
